@@ -12,9 +12,12 @@ namespace Grupo2_T3_AppGrafos
 {
     public partial class frmAdminVuelos : Form
     {
-        public frmAdminVuelos()
+        Grafo grafo;
+
+        public frmAdminVuelos(Grafo grafo)
         {
             InitializeComponent();
+            this.grafo = grafo;
         }
     }
 }

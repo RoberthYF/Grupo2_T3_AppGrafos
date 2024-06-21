@@ -12,9 +12,11 @@ namespace Grupo2_T3_AppGrafos
 {
     public partial class frmRedes : Form
     {
-        public frmRedes()
+        Grafo grafo;
+        public frmRedes(Grafo grafo)
         {
             InitializeComponent();
+            this.grafo = grafo;
         }
     }
 }

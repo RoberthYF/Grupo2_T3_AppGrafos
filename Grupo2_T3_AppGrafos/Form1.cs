@@ -12,6 +12,7 @@ namespace Grupo2_T3_AppGrafos
 {
     public partial class FrmPrincipal : Form
     {
+        public Grafo grafo = new Grafo();
         public FrmPrincipal()
         {
             InitializeComponent();
@@ -21,20 +22,20 @@ namespace Grupo2_T3_AppGrafos
         private void btnAdmin_Click(object sender, EventArgs e)
         {
             // Abrir formulario para Administración de vuelos
-            frmAdminVuelos ventana = new frmAdminVuelos();
+            frmAdminVuelos ventana = new frmAdminVuelos(grafo);
             ventana.Show();
         }
 
         private void btnInteligente_Click(object sender, EventArgs e)
         {
             // Abrir formulario para Vuelo Inteligente
-            frmVueloInteligente ventana = new frmVueloInteligente();
+            frmVueloInteligente ventana = new frmVueloInteligente(grafo);
             ventana.Show();
         }
 
         private void btnRedes_Click(object sender, EventArgs e)
         {
-            frmRedes ventana = new frmRedes();
+            frmRedes ventana = new frmRedes(grafo);
             ventana.Show();
             // Abrir formulario para Redes de vuelos
         }

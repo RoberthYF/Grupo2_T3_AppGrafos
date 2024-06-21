@@ -58,6 +58,18 @@
     <Compile Include="frmAdminVuelos.Designer.cs">
       <DependentUpon>frmAdminVuelos.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmRedes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRedes.Designer.cs">
+      <DependentUpon>frmRedes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVueloInteligente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVueloInteligente.Designer.cs">
+      <DependentUpon>frmVueloInteligente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -65,6 +77,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmAdminVuelos.resx">
       <DependentUpon>frmAdminVuelos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRedes.resx">
+      <DependentUpon>frmRedes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVueloInteligente.resx">
+      <DependentUpon>frmVueloInteligente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
