@@ -16,7 +16,6 @@ namespace Grupo2_T3_AppGrafos
         public FrmPrincipal()
         {
             InitializeComponent();
-            
         }
 
         private void btnAdmin_Click(object sender, EventArgs e)
